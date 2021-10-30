@@ -2,15 +2,16 @@
 void main()
 {
 	//variables
-	int num1, num2, sum;
+	int num1, num2, num3, sum;
 	
 	//initialization
-	num1 =10;
-	num2 =20;
+	num1 =1000;
+	num2 =2000;
+	num3 =5000;
 	
 	//calculation
-	sum=num1+num2;
+	sum=num1+num2+num3;
 	
 	//output
-	printf("%d",sum);
+	printf("sum of %d, %d and %d,%d",num1,num2,num3,sum); 
 }
